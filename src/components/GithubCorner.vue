@@ -1,6 +1,6 @@
 <template functional>
   <a
-    href="https://github.com/AlexBrohshtut/vue-ts-realworld-app"
+    href="https://github.com/t--takai/vue-ts-realworld-app"
     class="github-corner"
     aria-label="View source on GitHub"
     target="_blank"

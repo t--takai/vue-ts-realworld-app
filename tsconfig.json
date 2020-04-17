@@ -18,6 +18,7 @@
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },
   "include": [
+    "vue.config.js",
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
