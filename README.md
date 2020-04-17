@@ -1,5 +1,9 @@
 # vue-ts-realworld-app
 
+![DEPLOYMENT](https://github.com/t--takai/vue-ts-realworld-app/workflows/DEPLOYMENT/badge.svg)
+
+DEMO: http://t--takai.github.io/vue-ts-realworld-app/
+
 ## Project setup
 
 ```
