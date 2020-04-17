@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "dev": "yarn serve",
     "build": "vue-cli-service build",
+    "start": "serve -s dist",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
@@ -46,6 +48,7 @@
     "eslint-plugin-simple-import-sort": "^5.0.2",
     "eslint-plugin-vue": "^6.1.2",
     "prettier": "^1.19.1",
+    "serve": "^11.3.0",
     "typescript": "~3.7.5",
     "vue-template-compiler": "^2.6.11"
   }
