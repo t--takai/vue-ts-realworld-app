@@ -8,5 +8,6 @@ const routerBase = process.env.BASE_DIR
   : {};
 module.exports = {
   ...routerBase,
+  assetsDir: "src/",
   outputDir: "dist"
 };

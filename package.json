@@ -8,6 +8,8 @@
     "build": "vue-cli-service build",
     "start": "serve -s dist",
     "generate:gh-pages": "cross-env BASE_DIR=/vue-ts-realworld-app/ vue-cli-service build",
+    "predeploy": "yarn generate:gh-pages",
+    "deploy": "gh-pages -d dist",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
@@ -49,6 +51,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-simple-import-sort": "^5.0.2",
     "eslint-plugin-vue": "^6.1.2",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
     "serve": "^11.3.0",
     "typescript": "~3.7.5",
